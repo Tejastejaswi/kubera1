@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kubera: Raise Funding Request</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kubera: Raise Funding Request</h1>
+            <h2>Welcome <span class="username">Innovator</span></h2>
+        </header>
+
+        <nav class="sidebar">
+            <h3>Profile</h3>
+            <ul>
+                <li><a href="dashboard.html">Funding Request</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+
+        <main class="content">
+            <section class="funding-request">
+                <h3>Submit Funding Request</h3>
+                <form>
+                    <table class="funding-table">
+                        <tr>
+                            <td><label for="title">Title</label></td>
+                            <td><input type="text" id="title" value="LSP"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="summary">Summary</label></td>
+                            <td><input type="text" id="summary" value="Competition"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="fund-needed">Fund Needed</label></td>
+                            <td><input type="text" id="fund-needed" value="%"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="equity-offered">Equity Offered</label></td>
+                            <td><input type="text" id="equity-offered" value="%"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="interest-offered">Interest Offered</label></td>
+                            <td><input type="text" id="interest-offered" value="Yt"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="repayment-time">Repayment Time</label></td>
+                            <td><input type="text" id="repayment-time" value="*"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="investor">Investor</label></td>
+                            <td><input type="text" id="investor" value="SOM"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="assumptions">Assumptions</label></td>
+                            <td><input type="text" id="assumptions" placeholder="Exit Strategy"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><input type="text" placeholder="Exit Timeline"></td>
+                        </tr>
+                    </table>
+                    <button type="submit" class="btn">Submit</button>
+                </form>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,243 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+header h2 {
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+
+header h3 {
+    font-size: 1.2rem;
+    font-weight: normal;
+}
+
+.sidebar {
+    background-color: #34495e;
+    color: white;
+    padding: 1rem;
+    width: 200px;
+    position: fixed;
+    height: 100%;
+}
+
+.sidebar h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 0.5rem;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 1rem;
+    flex: 1;
+}
+
+/* Login Page Styles */
+.login-box {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-box h2 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    background-color: #2980b9;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.signup-link a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* Dashboard Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.status-approved {
+    color: green;
+    font-weight: bold;
+}
+
+.status-in-progress {
+    color: orange;
+    font-weight: bold;
+}
+
+.status-open {
+    color: blue;
+    font-weight: bold;
+}
+
+.index-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.index-text {
+    font-style: italic;
+    margin: 1rem 0;
+}
+
+.btn-clear {
+    padding: 0.5rem 1rem;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-clear:hover {
+    background-color: #c0392b;
+}
+
+/* Profile Edit Styles */
+.profile-table {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.profile-table td {
+    padding: 0.5rem;
+}
+
+.profile-table input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+/* Funding Request Styles */
+.funding-table {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.funding-table td {
+    padding: 0.5rem;
+}
+
+.funding-table input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.instruction {
+    font-style: italic;
+    color: #666;
+    margin: 0.5rem 0;
+}
